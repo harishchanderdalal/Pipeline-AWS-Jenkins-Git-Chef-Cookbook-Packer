@@ -3,7 +3,6 @@ node('master') {
    stage ('Spring Checkout')
    {
         git 'https://github.com/harishchanderdalal/spring.git'
-        sh 'who am i'
    		   echo 'git clone Sucessfully'
    }
 
