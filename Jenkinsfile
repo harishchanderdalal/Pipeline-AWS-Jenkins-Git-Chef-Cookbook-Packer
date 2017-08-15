@@ -2,9 +2,7 @@ node('master') {
 
    stage ('Spring Checkout')
    {
-        sh 'mkdir spring && cd spring'
         git 'https://github.com/harishchanderdalal/spring.git'
-        sh 'pwd'
    		   echo 'git clone Sucessfully'
    }
 
