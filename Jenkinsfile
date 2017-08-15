@@ -31,7 +31,8 @@ node('master') {
       sh 'export region=${region}'
       sh 'export sgroup=${sgroup}'
       sh 'export tag=${tag}'
-      sh 'export owner=${owner}'                    
+      sh 'export owner=${owner}'
+      sh 'chmod +x vagrantfile.sh'
       sh './vagrantfile.sh > Vagrantfile'
          echo 'Vagrantfile Created'
    }
