@@ -2,14 +2,11 @@ node('master') {
 
    stage ('Spring Checkout')
    {
+        dir ('spring') {
         git 'https://github.com/harishchanderdalal/spring.git'
-   		   echo 'git clone Sucessfully'
-   }
-
-   stage ('Build Spring')
-   {
         sh 'nohup ./mvnw clean install  </dev/null >/dev/null 2>&1 &'
-   		echo 'Spring Build Sucessfull'
+   	      echo 'git clone Sucessfully'
+        }
    }
 
    stage ('Spring UI')
