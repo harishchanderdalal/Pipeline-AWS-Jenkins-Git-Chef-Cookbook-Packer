@@ -8,7 +8,7 @@ node('master') {
 
    stage ('Build Spring')
    {
-        sh './mvnw spring-boot:run'
+        sh './mvnw clean install'
    		echo 'Spring Build Sucessfull'
    }
 
