@@ -3,8 +3,7 @@ node('master') {
    stage ('Spring Checkout')
    {
         dir ('spring') {
-        git 'https://github.com/harishchanderdalal/spring.git'
-        sh 'nohup ./mvnw spring-boot:run  </dev/null >/dev/null 2>&1 &'
+        git 'https://github.com/harishchanderdalal/spring-petclinic.git'
    	      echo 'git clone Sucessfully'
             }
    }
