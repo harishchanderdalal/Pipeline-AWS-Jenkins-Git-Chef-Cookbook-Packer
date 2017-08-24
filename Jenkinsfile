@@ -3,7 +3,7 @@ node('master') {
    stage ('Spring Checkout')
    {
         dir ('spring') {
-   	git branch: 'dryrun', url: 'https://github.com/harishchanderdalal/pocAgility.git'
+	git branch: 'master', url: 'https://github.com/harishchanderdalal/spring-petclinic.git'
 	echo 'git clone Sucessfully'
             }
    }
