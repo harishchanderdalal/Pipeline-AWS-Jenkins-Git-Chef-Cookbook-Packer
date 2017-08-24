@@ -3,8 +3,8 @@ node('master') {
    stage ('Spring Checkout')
    {
         dir ('spring') {
-	git 'https://github.com/harishchanderdalal/pocAgility.git'
-   	echo 'git clone Sucessfully'
+   	git branch: 'dryrun', url: 'https://github.com/harishchanderdalal/pocAgility.git'
+	echo 'git clone Sucessfully'
             }
    }
 
