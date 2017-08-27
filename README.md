@@ -9,7 +9,14 @@
     URL - Ec2 Ip:8080
 ```
 # Level 2
-- Jenkins Pipeline Job
+- How to Create Jenkins Pipeline Job for Spring Boot
+```
+1. Select New Item
+2. Job Type PIPELINE
+```
+- Configure Pipline Job
+![pipeline configure](https://user-images.githubusercontent.com/22466745/29747587-08329aee-8b1d-11e7-9229-816f938ed82f.png)
+
 #### https://github.com/harishchanderdalal/spring-petclinic.git
 ```
     Spring Framework Build as Service and Launch
