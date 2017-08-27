@@ -19,6 +19,13 @@
 - Configure Pipline Job
 ![pipeline configure](https://user-images.githubusercontent.com/22466745/29747587-08329aee-8b1d-11e7-9229-816f938ed82f.png)
 
+- Build Job
+![spring build](https://user-images.githubusercontent.com/22466745/29747684-bb0281a0-8b1f-11e7-94ce-d51af69db713.png)
+
+- Sping UI
+- Jenkins IP:9000
+![spring 9000](https://user-images.githubusercontent.com/22466745/29747690-fc11944c-8b1f-11e7-8c32-fa54b65cedce.png)
+
 #### https://github.com/harishchanderdalal/spring-petclinic.git
 ```
     Spring Framework Build as Service and Launch
