@@ -13,6 +13,8 @@
 ```
 1. Select New Item
 2. Job Type PIPELINE
+
+- Repositroy URL = https://github.com/harishchanderdalal/pocAgility.git
 ```
 - Configure Pipline Job
 ![pipeline configure](https://user-images.githubusercontent.com/22466745/29747587-08329aee-8b1d-11e7-9229-816f938ed82f.png)
