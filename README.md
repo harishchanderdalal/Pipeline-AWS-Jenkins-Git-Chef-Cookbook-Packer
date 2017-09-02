@@ -39,6 +39,10 @@
     Cookbook on Chef Server
 ```
 # Level 4
+- knife configure
+#### https://github.com/harishchanderdalal/chefknife.git
+
+# Level 5
 - Bootstrap Chef Node
 ```
    sudo su jenkins
