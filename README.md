@@ -33,14 +33,15 @@
 ```
 # Level 3
 - Install Chef Server on Ec2
-#### https://github.com/harishchanderdalal/chef.git
+#### https://github.com/harishchanderdalal/vagrantProvisionEc2Chef.git
 ```
     Configure Chef Server 
     Cookbook on Chef Server
 ```
 # Level 4
-- Packer AMI Creation
-#### https://github.com/harishchanderdalal/packerChef.git
+- Bootstrap Chef Node
 ```
-    Ec2 Use AMI will add that node under Chef Server
+   sudo su jenkins
+   cd chefWorkstation
+   knife bootstrap NODEIP --ssh-user ubuntu --sudo --identity-file keypair.pem --node-name NODEDISPLAYNAME
 ```
