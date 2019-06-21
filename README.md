@@ -49,3 +49,7 @@
    cd chefWorkstation
    knife bootstrap NODEIP --ssh-user ubuntu --sudo --identity-file keypair.pem --node-name NODEDISPLAYNAME
 ```
+
+```
+
+```
